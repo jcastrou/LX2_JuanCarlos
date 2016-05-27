@@ -249,3 +249,281 @@
   251  history >> history/history-$HOSTNAME
 20160526_1930
 ##########
+    1  sudo apt-get update
+    2  sudo apt-get upgrade 
+    3  clear
+    4  top
+    5  clear
+    6  ps
+    7  vmstat 
+    8  free 
+    9  pmap 
+   10  clear
+   11  df
+   12  stat
+   13  clear
+   14  who am i
+   15  shutdown -h now
+   16  mealcanzo25
+   17  su root
+   18  clear
+   19  sudo 1shw
+   20  mealcanzo25
+   21  sudo 1shw
+   22  sudo lshw
+   23  lscpu
+   24  htop
+   25  top
+   26  clear
+   27  vim
+   28  sudo apt- get install vim
+   29  mealcanzo25
+   30  sudo apt- get install vim
+   31  sudo apt-get install vim
+   32  ps -aux
+   33  clear
+   34  exit
+   35  script my.terminal.session
+   36  vim my.terminal.session 
+   37  rm my.terminal.session 
+   38  clear
+   39  lslogins
+   40  htop
+   41  rm /tmp/mozilla_cujc0/herb_mayer_pubs.doc 
+   42  rm /tmp/mozilla_cujc0/ho01.doc 
+   43  clear
+   44  chmod 777 /tmp/mozilla_cujc0/
+   45  rm /tmp/mozilla_cujc0/ho01.doc 
+   46  chmod 777 /tmp/mozilla_cujc0/
+   47  rm /tmp/mozilla_cujc0/herb_mayer_pubs.doc 
+   48  git ini
+   49  git init
+   50  sudo apt-get install git
+   51  clear
+   52  git branch
+   53  history
+   54  clear
+   55  ls
+   56  ls -l
+   57  clear
+   58  cear
+   59  sudo apt-get install tree
+   60  git init
+   61  ls -a
+   62  tree .git/
+   63  ls -la
+   64  clear
+   65  git add
+   66  git status
+   67  clear
+   68  ls -l
+   69  clear
+   70  vim my.terminal.session 
+   71  history
+   72  clear
+   73  df -lh
+   74  sudo apt-get install update
+   75  sudo apt-get install upgrade-system 
+   76  clear
+   77  man 
+   78  ls -lh
+   79  clear
+   80  lvdisplay
+   81  clear
+   82  vim histo
+   83  clear
+   84  echi=o $shell
+   85  echo $shell
+   86  clear
+   87  echo $bash_version
+   88  echo $BASH_VERSION
+   89  clear
+   90  echo $SHELL
+   91  shutdown -h now
+   92  sudo su -
+   93  cd
+   94  clear
+   95  mkdir Administrador_de_Servidores
+   96  ls -l
+   97  sudo apt-get install update
+   98  sudo apt-get update
+   99  sudo apt-get upgrade 
+  100  sudo apt-get install git
+  101  clear
+  102  sudo apt-get install git
+  103  git config --global user.name "Juan Carlos Castro"
+  104  git config --global user.email "<juanccastrou@gmail.com>"
+  105  mkdir PruebaGit
+  106  cd /etc/clear
+  107  cd PruebaGit/
+  108  mkidir hola-proyecto
+  109  mkdir hola-proyecto
+  110  cd hola-proyecto/
+  111  git init 
+  112  git clone https://github.com/jcastrou/GLSA2
+  113  touch main.c
+  114  touch funciones.c
+  115  touch funciones.h
+  116  touch Makefile
+  117  git add main.c
+  118  git add .
+  119  git status
+  120  git commit
+  121  git config --global core.editor vim
+  122  git status
+  123  git commit
+  124  git commit -m "Esto es una pruena de commmit"
+  125  git status
+  126  rm Makefile 
+  127  git status
+  128  git rm Makefile 
+  129  git status
+  130  git commit -m "Esta es una prueba de borrado"
+  131  ls
+  132  mv funciones.c GLSA2/funciones.c
+  133  git status
+  134  git rm funciones.c
+  135  git add GLSA2/funciones.c 
+  136  git status
+  137  git log
+  138  git log --oneline 
+  139  git branch prueba_rama
+  140  git branch 
+  141  git checkout prueba_rama 
+  142  git branch 
+  143  git checkout -b prueba_rama_b
+  144  git brancj
+  145  git branch
+  146  git branch -d prueba_rama
+  147  git branch
+  148  git log --oneline 
+  149  git log --oneline --decorate
+  150  git checkout master 
+  151  git merge prueba_rama_b 
+  152  git log --onq
+  153  git log --online
+  154  git log --oneline 
+  155  git --version 
+  156  clear
+  157  cd
+  158  cd PruebaGit/
+  159  cd hola-proyecto/
+  160  ls -l
+  161  clear
+  162  git log --oneline 
+  163  git log
+  164  ls -l
+  165  git remote add remoto https://github.com/jcastrou/GLSA2
+  166  git remote -v
+  167  git push master 
+  168  git push origin
+  169  git checkout master 
+  170  git push main.c master 
+  171  git push remoto 
+  172  git push remoto master 
+  173  cd
+  174  ls -l
+  175  cd Administrador_de_Servidores/
+  176  ls -l
+  177  cp Investigacion#1.odt PruebaGit/hola-proyecto/Investigacion#1
+  178  cp Investigacion#1.odt /home/cujc/Documents/
+  179  cd
+  180  ls =;
+  181  ls -l
+  182  ls 
+  183  cd Administrador_de_Servidores/
+  184  cp Investigacion#1.odt /home/PruebaGit
+  185  cd
+  186  ls -l
+  187  cd Administrador_de_Servidores/
+  188  ls -l
+  189  cd
+  190  PruebaGit/
+  191  cd PruebaGit/
+  192  ls -l
+  193  cd hola-proyecto/
+  194  ls -l
+  195  cd
+  196  ls -l
+  197  cd Administrador_de_Servidores/
+  198  ls -l
+  199  chmod 777 Investigacion#1.odt 
+  200  clear
+  201  cp Investigacion#1.odt /home/PruebaGit
+  202  cd
+  203  chmod 778 PruebaGit/hola-proyecto/
+  204  chmod 777 PruebaGit/hola-proyecto/
+  205  clear
+  206  cp Investigacion#1.odt /home/PruebaGit/
+  207  ls
+  208  cd Administrador_de_Servidores/
+  209  cp Investigacion#1.odt /home/PruebaGit/
+  210  cp Investigacion#1.odt /home/PruebaGit
+  211  cp Investigacion#1.odt /PruebaGit
+  212  clear
+  213  c
+  214  cd
+  215  clear
+  216  history
+  217  exit
+  218  cd Administrador_de_Servidores/
+  219  history
+  220  sudo apt-get update 
+  221  sudo apt-get upgrade 
+  222  git clone https://github.com/jcastrou/LX2_JuanCarlos
+  223  ls -l
+  224  cd LX2_JuanCarlos/
+  225  mkdir error
+  226  mkdir history
+  227  mkdir src
+  228  git log
+  229  ls -l
+  230  git add error
+  231  git add history/
+  232  git add src/
+  233  git add error/
+  234  git status
+  235  git rm error
+  236  git commit
+  237  git log
+  238  git status
+  239  git init 
+  240  git status
+  241  git commit
+  242  git add error/
+  243  git add src/
+  244  git add history/
+  245  git status
+  246  git commit
+  247  clear
+  248  cd history/
+  249  cd
+  250  cd Administrador_de_Servidores/LX2_JuanCarlos/
+  251  history >> history/history-$HOSTNAME
+  252  tree history
+  253  git status
+  254  ls
+  255  la -l
+  256  vim history/history-cujc 
+  257  date +%Y%m%d_%H%M >> history/history-cujc 
+  258  echo "##########">> history/history-cujc 
+  259  cat history/history-cujc 
+  260  git status
+  261  git add history/
+  262  git commit 
+  263  git commit -m "Subiendo mi History"
+  264  git status
+  265  git log
+  266  git log --oneline 
+  267  git remote add RepRemoto https://github.com/jcastrou/LX2_JuanCarlos.git
+  268  git remote -v
+  269  git remote rm RepRemoto
+  270  git remote -v
+  271  git push origin 
+  272  git push origin master 
+  273  git add history/history-cujc 
+  274  git status
+  275* 
+  276  cat
+  277  cat history/history-cujc 
+  278  history >> history/history-cujc 
