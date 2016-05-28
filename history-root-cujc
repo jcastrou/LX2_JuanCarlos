@@ -1,0 +1,90 @@
+    1  shutdown -h now
+    2  history >history/history-root-$HOSTNAME
+    3  cd
+    4  cd /Administrador_de_Servidores/LX2_JuanCarlos
+    5  ls -l
+    6  cd -
+    7  touch history-root-$HOSTNAME
+    8  ls -l
+    9  less history-root-cujc 
+   10  git add history-root-cujc 
+   11  git init
+   12  git add history-root-cujc 
+   13  git status
+   14  git commit -m "History root"
+   15  git config --global user.email "juankitacr@gmail.com"
+   16  git config --global user.name "Juan Carlos Castro "
+   17  git status
+   18  git commit -m "History root"
+   19  cat history-root-cujc 
+   20  history <
+   21  history > history-root-cujc 
+   22  cat history-root-cujc 
+   23  git status
+   24  git add history-root-cujc 
+   25  git status
+   26  git commit -m "History Root"
+   27  date +%Y%m%d_%H%M >> history-root-cujc 
+   28  git add history-root-cujc 
+   29  git statis
+   30  git status
+   31  git commit -m "History root Actualizado "
+   32  git push origin master 
+   33  git push history-root-cujc master 
+   34  git remote add  https://github.com/jcastrou/LX2_JuanCarlos
+   35  git remote -v
+   36  git log
+   37  git remote add https://github.com/jcastrou/LX2_JuanCarlos.git
+   38  tree history-root-cujc 
+   39  cd /home/
+   40  ls -l
+   41  cd cujc/
+   42  cd Administrador_de_Servidores/
+   43  ls -l
+   44  LX2_JuanCarlos/
+   45  cat history-root-cujc 
+   46  touch history-root-$HOSTNAME
+   47  history > history-root-cujc 
+   48  rm history-root-cujc 
+   49  cd history/
+   50  touch history-root-$HOSTNAME
+   51  history > history-root-cujc 
+   52  cat history-root-cujc 
+   53  git add history-root-cujc 
+   54  git status
+   55  cat history-root-cujc 
+   56  history > history-root-cujc 
+   57  git add history-root-cujc 
+   58  git commit -m "History root"
+   59  git status
+   60  git push origin master 
+   61  exit
+   62  git status
+   63  cd
+   64  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/
+   65  git status
+   66  git add src/proyectoFinal/problema2/datos_csv/datos-1.csv 
+   67  git add src/proyectoFinal/problema2/datos_csv/datos-2.csv 
+   68  git status
+   69  git add src/proyectoFinal/problema2/datos_csv/datos-4.csv 
+   70  git status
+   71  git commit -m "Conversion de los archivos CSV"
+   72  git log 
+   73  gitk
+   74  exit
+   75  history > history-root-cujc 
+   76  git status
+   77  git add history-root-cujc 
+   78  git status
+   79  git commit -m "Commit del root"
+   80  tree
+   81  cd
+   82  exit
+   83  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/
+   84  git status
+   85  git log
+   86  git status
+   87  git log 
+   88  git status
+   89  git log
+   90  history > history-root-cujc 
