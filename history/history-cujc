@@ -2646,3 +2646,816 @@
   759  cd ..
   760  history >> history/history-$HOSTNAME
 20160527_1820
+    1  sudo apt-get update
+    2  sudo apt-get upgrade 
+    3  clear
+    4  top
+    5  clear
+    6  ps
+    7  vmstat 
+    8  free 
+    9  pmap 
+   10  clear
+   11  df
+   12  stat
+   13  clear
+   14  who am i
+   15  shutdown -h now
+   16  mealcanzo25
+   17  su root
+   18  clear
+   19  sudo 1shw
+   20  mealcanzo25
+   21  sudo 1shw
+   22  sudo lshw
+   23  lscpu
+   24  htop
+   25  top
+   26  clear
+   27  vim
+   28  sudo apt- get install vim
+   29  mealcanzo25
+   30  sudo apt- get install vim
+   31  sudo apt-get install vim
+   32  ps -aux
+   33  clear
+   34  exit
+   35  script my.terminal.session
+   36  vim my.terminal.session 
+   37  rm my.terminal.session 
+   38  clear
+   39  lslogins
+   40  htop
+   41  rm /tmp/mozilla_cujc0/herb_mayer_pubs.doc 
+   42  rm /tmp/mozilla_cujc0/ho01.doc 
+   43  clear
+   44  chmod 777 /tmp/mozilla_cujc0/
+   45  rm /tmp/mozilla_cujc0/ho01.doc 
+   46  chmod 777 /tmp/mozilla_cujc0/
+   47  rm /tmp/mozilla_cujc0/herb_mayer_pubs.doc 
+   48  git ini
+   49  git init
+   50  sudo apt-get install git
+   51  clear
+   52  git branch
+   53  history
+   54  clear
+   55  ls
+   56  ls -l
+   57  clear
+   58  cear
+   59  sudo apt-get install tree
+   60  git init
+   61  ls -a
+   62  tree .git/
+   63  ls -la
+   64  clear
+   65  git add
+   66  git status
+   67  clear
+   68  ls -l
+   69  clear
+   70  vim my.terminal.session 
+   71  history
+   72  clear
+   73  df -lh
+   74  sudo apt-get install update
+   75  sudo apt-get install upgrade-system 
+   76  clear
+   77  man 
+   78  ls -lh
+   79  clear
+   80  lvdisplay
+   81  clear
+   82  vim histo
+   83  clear
+   84  echi=o $shell
+   85  echo $shell
+   86  clear
+   87  echo $bash_version
+   88  echo $BASH_VERSION
+   89  clear
+   90  echo $SHELL
+   91  shutdown -h now
+   92  sudo su -
+   93  cd
+   94  clear
+   95  mkdir Administrador_de_Servidores
+   96  ls -l
+   97  sudo apt-get install update
+   98  sudo apt-get update
+   99  sudo apt-get upgrade 
+  100  sudo apt-get install git
+  101  clear
+  102  sudo apt-get install git
+  103  git config --global user.name "Juan Carlos Castro"
+  104  git config --global user.email "<juanccastrou@gmail.com>"
+  105  mkdir PruebaGit
+  106  cd /etc/clear
+  107  cd PruebaGit/
+  108  mkidir hola-proyecto
+  109  mkdir hola-proyecto
+  110  cd hola-proyecto/
+  111  git init 
+  112  git clone https://github.com/jcastrou/GLSA2
+  113  touch main.c
+  114  touch funciones.c
+  115  touch funciones.h
+  116  touch Makefile
+  117  git add main.c
+  118  git add .
+  119  git status
+  120  git commit
+  121  git config --global core.editor vim
+  122  git status
+  123  git commit
+  124  git commit -m "Esto es una pruena de commmit"
+  125  git status
+  126  rm Makefile 
+  127  git status
+  128  git rm Makefile 
+  129  git status
+  130  git commit -m "Esta es una prueba de borrado"
+  131  ls
+  132  mv funciones.c GLSA2/funciones.c
+  133  git status
+  134  git rm funciones.c
+  135  git add GLSA2/funciones.c 
+  136  git status
+  137  git log
+  138  git log --oneline 
+  139  git branch prueba_rama
+  140  git branch 
+  141  git checkout prueba_rama 
+  142  git branch 
+  143  git checkout -b prueba_rama_b
+  144  git brancj
+  145  git branch
+  146  git branch -d prueba_rama
+  147  git branch
+  148  git log --oneline 
+  149  git log --oneline --decorate
+  150  git checkout master 
+  151  git merge prueba_rama_b 
+  152  git log --onq
+  153  git log --online
+  154  git log --oneline 
+  155  git --version 
+  156  clear
+  157  cd
+  158  cd PruebaGit/
+  159  cd hola-proyecto/
+  160  ls -l
+  161  clear
+  162  git log --oneline 
+  163  git log
+  164  ls -l
+  165  git remote add remoto https://github.com/jcastrou/GLSA2
+  166  git remote -v
+  167  git push master 
+  168  git push origin
+  169  git checkout master 
+  170  git push main.c master 
+  171  git push remoto 
+  172  git push remoto master 
+  173  cd
+  174  ls -l
+  175  cd Administrador_de_Servidores/
+  176  ls -l
+  177  cp Investigacion#1.odt PruebaGit/hola-proyecto/Investigacion#1
+  178  cp Investigacion#1.odt /home/cujc/Documents/
+  179  cd
+  180  ls =;
+  181  ls -l
+  182  ls 
+  183  cd Administrador_de_Servidores/
+  184  cp Investigacion#1.odt /home/PruebaGit
+  185  cd
+  186  ls -l
+  187  cd Administrador_de_Servidores/
+  188  ls -l
+  189  cd
+  190  PruebaGit/
+  191  cd PruebaGit/
+  192  ls -l
+  193  cd hola-proyecto/
+  194  ls -l
+  195  cd
+  196  ls -l
+  197  cd Administrador_de_Servidores/
+  198  ls -l
+  199  chmod 777 Investigacion#1.odt 
+  200  clear
+  201  cp Investigacion#1.odt /home/PruebaGit
+  202  cd
+  203  chmod 778 PruebaGit/hola-proyecto/
+  204  chmod 777 PruebaGit/hola-proyecto/
+  205  clear
+  206  cp Investigacion#1.odt /home/PruebaGit/
+  207  ls
+  208  cd Administrador_de_Servidores/
+  209  cp Investigacion#1.odt /home/PruebaGit/
+  210  cp Investigacion#1.odt /home/PruebaGit
+  211  cp Investigacion#1.odt /PruebaGit
+  212  clear
+  213  c
+  214  cd
+  215  clear
+  216  history
+  217  exit
+  218  cd Administrador_de_Servidores/
+  219  history
+  220  sudo apt-get update 
+  221  sudo apt-get upgrade 
+  222  git clone https://github.com/jcastrou/LX2_JuanCarlos
+  223  ls -l
+  224  cd LX2_JuanCarlos/
+  225  mkdir error
+  226  mkdir history
+  227  mkdir src
+  228  git log
+  229  ls -l
+  230  git add error
+  231  git add history/
+  232  git add src/
+  233  git add error/
+  234  git status
+  235  git rm error
+  236  git commit
+  237  git log
+  238  git status
+  239  git init 
+  240  git status
+  241  git commit
+  242  git add error/
+  243  git add src/
+  244  git add history/
+  245  git status
+  246  git commit
+  247  clear
+  248  cd history/
+  249  cd
+  250  cd Administrador_de_Servidores/LX2_JuanCarlos/
+  251  history >> history/history-$HOSTNAME
+  252  tree history
+  253  git status
+  254  ls
+  255  la -l
+  256  vim history/history-cujc 
+  257  date +%Y%m%d_%H%M >> history/history-cujc 
+  258  echo "##########">> history/history-cujc 
+  259  cat history/history-cujc 
+  260  git status
+  261  git add history/
+  262  git commit 
+  263  git commit -m "Subiendo mi History"
+  264  git status
+  265  git log
+  266  git log --oneline 
+  267  git remote add RepRemoto https://github.com/jcastrou/LX2_JuanCarlos.git
+  268  git remote -v
+  269  git remote rm RepRemoto
+  270  git remote -v
+  271  git push origin 
+  272  git push origin master 
+  273  git add history/history-cujc 
+  274  git status
+  275  cat
+  276  cat history/history-cujc 
+  277  history >> history/history-cujc 
+  278  cat history/history-cujc 
+  279  git add history/history-cujc 
+  280  git status
+  281  git commit history/history-cujc 
+  282  git commit -m "Actualizacion del history casa"
+  283  git push origin master 
+  284  sudo apt-get install gitk
+  285  gitk
+  286  sudo su -
+  287  cd ./
+  288  cd .
+  289  pwd
+  290  ls
+  291  cd ..
+  292  vim Investigacion#1.odt 
+  293  cd LX2_JuanCarlos/
+  294  cd src/
+  295  clear
+  296  cd ..
+  297  vim histo
+  298  free
+  299  netstat
+  300  top
+  301  vmstat
+  302  lsof 
+  303  clear
+  304  tcpdump -i eth0 
+  305  sudo su -
+  306  sudo -
+  307  clear
+  308  netstat -a | more 
+  309  htop
+  310  iotop
+  311  iostat
+  312  psaact
+  313  psacct
+  314  pmacct
+  315  iftop
+  316  top
+  317  htop
+  318  atop
+  319  ftptop
+  320  jnettop
+  321  traceroute
+  322  tracerute www.google.com
+  323  netstat
+  324  ss
+  325  nmap
+  326  vim histo
+  327  ssatun
+  328  vim histo
+  329  df
+  330  uptime
+  331  ps
+  332  free
+  333  stat
+  334  clear
+  335  echo $BASH_VERSION
+  336  bash --version
+  337  echo "##########">> history/history-cujc 
+  338  clear
+  339  ls -l
+  340  cd Downloads/
+  341  ls 
+  342  tar xvzf proyectoFinal.tar.gz 
+  343  ls -l
+  344  cd proyectoFinal/
+  345  ls
+  346  clear
+  347  cd
+  348  cd proyectoFinal/
+  349  cd Downloads/proyectoFinal/
+  350  vim PracticaYProblemas.pdf 
+  351  cd..
+  352  cd ..
+  353  mv proyectoFinal/ /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/
+  354  cd
+  355  Administrador_de_Servidores/LX2_JuanCarlos/src/
+  356  cd Administrador_de_Servidores/LX2_JuanCarlos/src/
+  357  ls -l
+  358  git init
+  359  git status
+  360  git log
+  361  git remote 
+  362  git remote -v
+  363  gitk
+  364  cd ..
+  365  git remote -v
+  366  git log
+  367  git status
+  368  git commit
+  369  git add src/
+  370  git status
+  371  git commit
+  372  git commit -m "Datos del Proyecto"
+  373  git push origin master 
+  374  gitk
+  375  cd src/
+  376  git status
+  377  git remote -v
+  378  git status
+  379  cd ..
+  380  cd src/
+  381  time ls
+  382  clear
+  383  touch problema2.sh
+  384  sudo apt-get -Uhv ❤tt♣✿✴✴♣❛❝❦❛❣❡s✳s✇✳❜❡✴r♣♠❢♦r❣❡✲r❡❧❡❛s❡✴r♣♠❢♦r❣❡✲
+  385  sudo easy_install xlsx2csv
+  386  sudo apt-get install xlsx2csv 
+  387  sudo apt-get update
+  388  sudo apt-get upgrade 
+  389  sudo apt-get catdoc 
+  390  sudo apt-get install catdoc 
+  391  catdoc
+  392  cd proyectoFinal/
+  393  ls -l
+  394  cd problema2
+  395  ls -l
+  396  touch problema2.sh
+  397  vim problema2.sh 
+  398  ls -l
+  399  pw
+  400  wp
+  401  pwd
+  402  vim problema2.sh 
+  403  chmod +x problema2.sh 
+  404  ls -l problema2.sh 
+  405  ./problema2.sh 
+  406  vim problema2.sh 
+  407  ./problema2.sh 
+  408  ls -l
+  409  vim error1.log 
+  410  vim problema2.sh 
+  411  ./problema2.sh 
+  412  ls -l
+  413  vim error1.log 
+  414  vim problema2.sh 
+  415  ./problema2.sh 
+  416  ls -l
+  417  tree
+  418  rm Enero2012.csv 
+  419  tree
+  420  vim datos-0.csv 
+  421  ls -l
+  422  ls 
+  423  file
+  424  file bills01
+  425  file bills01_2012.xls  
+  426  file datos-0.csv 
+  427  vim problema2.sh 
+  428  ./problema2.sh 
+  429  ls -l
+  430  file bills01_2012.xls  
+  431  file datos-0.csv 
+  432  $inconv -f iso-8859-1 -t utf-8 datos_csv >> datos.utf-8.out
+  433  $iconv -f iso-8859-1 -t utf-8 datos_csv >> datos.utf-8.out
+  434  vim datos-0.csv 
+  435  cd datos_csv/
+  436  $iconv -f iso-8859-1 -t utf-8 datos_csv >> datos.utf-8.out
+  437  cd ..
+  438  git add src/
+  439  cd src/
+  440  ls -l
+  441  cd proyectoFinal/
+  442  ls -l
+  443  cd problema2
+  444  ls -l
+  445  ls
+  446  cd ..
+  447  ls
+  448  cd..
+  449  cd ..
+  450  ls
+  451  vim problema2.sh 
+  452  rm problema2.sh 
+  453  cd
+  454  Administrador_de_Servidores/
+  455  cd Administrador_de_Servidores/
+  456  cd LX2_JuanCarlos/
+  457  git status
+  458  git add src/proyectoFinal/
+  459  rm .git/
+  460  cd src/
+  461  cd .git
+  462  ls
+  463  cd ..
+  464  rm -rf .git/
+  465  cd ..
+  466  cd src/
+  467  ls 
+  468  cd //
+  469  cd
+  470  cd Administrador_de_Servidores/LX2_JuanCarlos/
+  471  git status
+  472  git add src/proyectoFinal/
+  473  cd src/proyectoFinal/
+  474  cd problema2
+  475  vim problema2.sh 
+  476  ./problema2.sh 
+  477  ls -l
+  478  vim error1.log 
+  479  cd datos_csv/
+  480  ls -;
+  481  ls -l
+  482  cd ..
+  483  rm datos-.csv
+  484  rm *.csv
+  485  ls -l
+  486  cd datos_csv/
+  487  ls -l
+  488  vim datos-0.csv 
+  489  vim datos.utf-8.out 
+  490  rm datos.utf-8.out 
+  491  cd ..
+  492  tree
+  493  rm datos.utf-8.out 
+  494  tree
+  495  $iconv -l
+  496  $iconv -v
+  497  cd ..
+  498  git status
+  499  git add src/
+  500  src/proyectoFinal/problema2/
+  501  git add src/proyectoFinal/problema2/datos_csv/
+  502  git add src/proyectoFinal/problema2/problema2.sh 
+  503  git add src/proyectoFinal/problema2/error1.log 
+  504  git add src/proyectoFinal/problema2/datos_csv/*.csv
+  505  git status
+  506  git config core.sharedRepository 
+  507  git add src/proyectoFinal/problema2/datos_csv/
+  508  git config core.sharedRepository group
+  509  ls -al
+  510  cd .git/
+  511  ls -l
+  512  ls 
+  513  cd objects/
+  514  ls -l
+  515  ls -al
+  516  sudo chown -R cujc:cujc 
+  517  sudo chown -R cujc 
+  518  sudo chown -R cujc:cujc 
+  519  chown --help 
+  520  sudo chown -R cujc:src 
+  521  cd ..
+  522  git status
+  523  git add src/proyectoFinal/problema2/datos_csv/datos-0.csv 
+  524  git add src/proyectoFinal/problema2/datos_csv/datos-1.csv 
+  525  git add src/proyectoFinal/problema2/datos_csv/datos-2.csv 
+  526  git add src/proyectoFinal/problema2/datos_csv/datos-3.csv 
+  527  git add src/proyectoFinal/problema2/datos_csv/datos-4.csv 
+  528  git add src/proyectoFinal/problema2/datos_csv/datos-5.csv 
+  529  git status
+  530  git add src/proyectoFinal/problema2/datos_csv/datos-1.csv 
+  531  git add src/proyectoFinal/problema2/datos_csv/datos-4.csv 
+  532  cd src/proyectoFinal/problema2/datos_csv/
+  533  vim datos-1.csv 
+  534  vim datos-4.csv 
+  535  git status
+  536  git add datos-1.csv 
+  537  git add datos-4.csv 
+  538  cd ..
+  539  cd .git/objects/
+  540  sudo chown -R cujc:staff 
+  541  cd
+  542  Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/datos_csv/
+  543  cd Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/datos_csv/
+  544  git status
+  545  git add datos-1.csv 
+  546  sudo su -
+  547  cd ..
+  548  cd datos_csv/
+  549  file datos-1.csv 
+  550  cd ..
+  551  iconv -f iso-8859-1 -t utf-8 
+  552  cd ..
+  553  iconv -f iso-8859-1 -t utf-8 problema2 >> problema2.utf-8.out
+  554  $iconv -f iso-8859-1 -t utf-8 problema2 >> problema2.utf-8.out
+  555  $iconv  iso-8859-1 -t utf-8 problema2 >> problema2.utf-8.out
+  556  $iconv -f iso-88591 -t utf-8 problema2 >> problema2.utf-8.out
+  557  $iconv  iso-8859-1 -t utf-8 problema2 > problema2.utf-8.out
+  558  $iconv -f iso-88591 -t utf-8 problema2 > problema2.utf-8.out
+  559  $iconv -f ISO-8859-1 -t UTF-8 problema2/datos_csv/ >> problema2.utf-8.out
+  560  iconv -f ISO-8859-1 -t UTF-8 problema2/datos_csv/ >> problema2.utf-8.out
+  561  iconv -f ISO-8859-1 -t UTF-8 problema2/datos_csv/datos- >> problema2.utf-8.out
+  562  iconv -f ISO-8859-1 -t UTF-8 problema2 >> problema2.utf-8.out
+  563  tree
+  564  cd problema2/
+  565  iconv -f iso-8859-1 -t utf-8 datos_csv >> datos.utf-8.out
+  566  cd
+  567  cd Administrador_de_Servidores/LX2_JuanCarlos/
+  568  cd src/proyectoFinal/problema2/datos_csv/
+  569  file datos-1.csv 
+  570  cd ..
+  571  clear
+  572  vim datos_csv/datos-0.csv 
+  573  git status
+  574  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $1 "" $2 "" $3 "" $4}' | head 
+  575  vim datos_csv/datos-0.csv 
+  576  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $1 "" $2 "" $3 "" $4}' | sed '1,$ s/"//g'| head 
+  577  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $3 }' | sed '1 s/LUZ/#LUZ/g'| head 
+  578  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $3 }' | sed '1,$  s/"//g'| sed '1 s/LUZ/#LUZ/g' | head  
+  579  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $3 }' | sed '1,$  s/"//g'| sed '1 s/LUZ/#luz/g' | head  
+  580  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $3 }' | sed '1,$ s/"//g'| sed '1 s/LUZ/#LUZ/g' | head  
+  581  vim problema2.sh 
+  582  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $2 }' | sed '1,$ s/"//g'| sed '1 s/LUZ/#LUZ/g' | head  
+  583  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $2 }' | sed '1,$ s/"//g'| sed '1 s/agua/#agua/g' | head  
+  584  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $2 }' | sed '1,$ s/"//g'| sed '2 s/AGUA/#AGUA/g' | head  
+  585  vim problema2.sh 
+  586  ./problema2.sh 
+  587  vim problema2.sh 
+  588  ./problema2.sh 
+  589  git status
+  590  ls =l
+  591  ls -l
+  592  cd ..
+  593  cd..
+  594  cd ..
+  595  vim E
+  596  ls -l
+  597  cd ..
+  598  cd src/proyectoFinal/
+  599  la -l
+  600  cd problema2
+  601  ls -l
+  602  cd datos_csv/
+  603  ls -l
+  604  cd ..
+  605  ./problema2.sh 
+  606  cd datos_csv/
+  607  ls -l
+  608  cd ..
+  609  vim problema2.sh 
+  610  cd ..
+  611  ls 
+  612  rm ErrorConversionDeArchivos.log 
+  613  rm ErrorGrafica.log 
+  614  ls -l
+  615  cd src/proyectoFinal/problema2
+  616  ./problema2.sh 
+  617  cd ..
+  618  cd error/
+  619  ls 
+  620  vim ErrorGrafica.log 
+  621  git status
+  622  cd ..
+  623  git status
+  624  git add src/
+  625  git add error/
+  626  git status
+  627  cd src/proyectoFinal/problema2/
+  628  vim problema2.sh 
+  629  ./problema2.sh 
+  630  ls -l
+  631  cd datos_graf/
+  632  ls -l
+  633  cd ..
+  634  vim problema2.sh 
+  635  ./problema2.sh 
+  636  mkdir plot
+  637  ls -l
+  638  gnuplot
+  639  sudo apt-get install gnuplot
+  640  gnuplot
+  641  cd datos_graf/
+  642  cp grafico-0.dat ../plot/
+  643  cd ..
+  644  cd plot/
+  645  gnuplot 
+  646  cd ..
+  647  git status
+  648  git add src/
+  649  git status
+  650  git add error/
+  651  git status
+  652  history >> history/history-$HOSTNAME
+  653  date +%Y%m%d_%H%M >> history/history-cujc 
+  654  vim problema2.sh 
+  655  history
+  656  :q
+  657  echo "##########">> history/history-cujc 
+  658  history
+  659  git status
+  660  git add history/history-cujc 
+  661  cd src/proyectoFinal/problema2/datos_graf/
+  662  rm *.dat
+  663  ls -l
+  664  cd ..
+  665  cd problema2
+  666  ./problema2.sh 
+  667  git status
+  668  rm datos_graf/
+  669  rm datos_graf
+  670  cd datos_graf/
+  671  rm *.dat
+  672  ./problema2.sh 
+  673  cd datos_graf/
+  674  ls -l
+  675  cd ..
+  676  vim problema2.sh 
+  677  ./problema2.sh 
+  678  cd datos_graf/
+  679  ls -l
+  680  cd ..
+  681  git status
+  682  git add src/proyectoFinal/problema2/
+  683  git add src/proyectoFinal/problema2/datos_graf/
+  684  git status
+  685  git add --ignore-removal src/proyectoFinal/problema2/datos_graf/
+  686  git status
+  687  git reset
+  688  git status
+  689  git log
+  690  git add error/
+  691  git add src/proyectoFinal/problema2/datos_graf/
+  692  git status
+  693  git commit -m "History Actualizado y problema #2 avance"
+  694  tree
+  695  git add src/proyectoFinal/problema2/plot
+  696  git status
+  697  history >> history/history-$HOSTNAME
+  698  git status
+  699  git add history/history-cujc 
+  700  git add src/proyectoFinal/problema2/problema2.sh 
+  701  git status 
+  702  git commit -m "History Actualizado y problema #2 avanzado"
+  703  git log 
+  704  gitk
+  705  clear
+  706  touch tareaDeLosEstados.sh
+  707  vim tareaDeLosEstados.sh 
+  708  free
+  709  vim tareaDeLosEstados.sh 
+  710  ifconfig
+  711  vim tareaDeLosEstados.sh 
+  712  vmstat 
+  713  nload
+  714  traceroute6
+  715  netstat 
+  716  netstat --listening 
+  717  netstat --route 
+  718  netstat -a
+  719  netstat -s
+  720  vim tareaDeLosEstados.sh 
+  721  netstat -i
+  722  corelist 
+  723  cores '1'
+  724  nmap localhost 
+  725  netstat -latuna
+  726  netstat --numeric-users 
+  727  netstat --netrom 
+  728  netstat --fib
+  729  netstat -a | more
+  730  vim tareaDeLosEstados.sh 
+  731  netstat --verbose 
+  732  netstat -r
+  733  netstat -rn
+  734  vim tareaDeLosEstados.sh 
+  735  netstat -latuna
+  736  netstat -latuna | grep EST
+  737  netstat 
+  738  netstat -latuna 
+  739  vim tareaDeLosEstados.sh 
+  740  uptime 
+  741  vmstat
+  742  vim tareaDeLosEstados.sh 
+  743  iostat
+  744  du
+  745  du -m
+  746  who
+  747  ps
+  748  vim tareaDeLosEstados.sh 
+  749  chmod +x tareaDeLosEstados.sh 
+  750  ./tareaDeLosEstados.sh 
+  751  git status
+  752  git add tareaDeLosEstados.sh 
+  753  git status
+  754  history >> history/history-$HOSTNAME
+  755  cd ..
+  756  history >> history/history-$HOSTNAME
+  757  date +%Y%m%d_%H%M 
+  758  date +%Y%m%d_%H%M >> history-OptiPlex-9020 
+  759  ls -l
+  760  rm history-OptiPlex-9020 
+  761  date +%Y%m%d_%H%M >> history/history-cujc 
+  762  history
+  763  cd history/
+  764  vim history-cujc 
+  765  cd ..
+  766  git status
+  767  git add history/history-cujc 
+  768  git staus
+  769  git status
+  770  git commit -m "Actualizacion de history y Tarea de los estados"
+  771  git log
+  772  cd ..
+  773  tree 
+  774  sudo su -
+  775  gitk
+  776  git status
+  777  cd ..
+  778  cd Administrador_de_Servidores/
+  779  cd LX2_JuanCarlos/
+  780  git status
+  781  gitk
+  782  sudo su -
+  783  exit
+  784  sudo su -
+  785  vim bashrc
+  786  cd Administrador_de_Servidores/LX2_emmanuel/src/ciclos/
+  787  clear
+  788  env VAR2=hola VAR3=Mundo ./IFS.sh 
+  789  history
+  790  cd
+  791  cd Administrador_de_Servidores/LX2_JuanCarlos/src/ciclos/
+  792  clear
+  793  vim case Exm1.sh
+  794  ls -l
+  795  vim Case.sh
+  796  chmod 750 Case.sh 
+  797  ./Case.sh 
+  798* 
+  799  ./Case.sh Ubuntu
+  800  vim Case.sh
+  801  vim Case.sh Fedora
+  802  ./Case.sh Fedora
+  803  vim Case.sh 
+  804  ./Case.sh Fedora
+  805  ./Case.sh Ubuntu
+  806  clear
+  807  vim Case.sh 
+  808  history >> history/history-$HOSTNAME
+  809  cd ..
+  810  cd history/
+  811  history >> history/history-$HOSTNAME
+  812  cd ..
+  813  history >> history/history-$HOSTNAME

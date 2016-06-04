@@ -51,4 +51,5 @@ do
 		echo "En los elementos NO existe la palabra carro" 
 	fi
 	done  
+echo "###############Ejercicio de parametros Var2 y Var3##########################"
 
