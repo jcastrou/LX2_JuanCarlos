@@ -1,0 +1,16 @@
+         line 0: warning: Skipping data file with no valid points
+
+gnuplot> plot "/home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema3/full_datos/DAT.dat" using 1:1 with lines title "MAXiMO",
+                                                                                                                                                         ^
+         line 0: x range is invalid
+
+
+gnuplot> "" using 1:2 with linespoints title "MINIMO"
+         ^
+         line 0: invalid command
+
+
+gnuplot> replot
+         ^
+         line 0: no previous plot
+

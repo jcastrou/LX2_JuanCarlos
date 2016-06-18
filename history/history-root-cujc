@@ -42,16 +42,112 @@
    42  cd Administrador_de_Servidores/
    43  ls -l
    44  LX2_JuanCarlos/
-   45* 
-   46  cat history-root-cujc 
-   47  touch history-root-$HOSTNAME
-   48  history > history-root-cujc 
-   49  rm history-root-cujc 
-   50  cd history/
-   51  touch history-root-$HOSTNAME
-   52  history > history-root-cujc 
-   53  cat history-root-cujc 
-   54  git add history-root-cujc 
-   55  git status
-   56  cat history-root-cujc 
-   57  history > history-root-cujc 
+   45  cat history-root-cujc 
+   46  touch history-root-$HOSTNAME
+   47  history > history-root-cujc 
+   48  rm history-root-cujc 
+   49  cd history/
+   50  touch history-root-$HOSTNAME
+   51  history > history-root-cujc 
+   52  cat history-root-cujc 
+   53  git add history-root-cujc 
+   54  git status
+   55  cat history-root-cujc 
+   56  history > history-root-cujc 
+   57  git add history-root-cujc 
+   58  git commit -m "History root"
+   59  git status
+   60  git push origin master 
+   61  exit
+   62  git status
+   63  cd
+   64  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/
+   65  git status
+   66  git add src/proyectoFinal/problema2/datos_csv/datos-1.csv 
+   67  git add src/proyectoFinal/problema2/datos_csv/datos-2.csv 
+   68  git status
+   69  git add src/proyectoFinal/problema2/datos_csv/datos-4.csv 
+   70  git status
+   71  git commit -m "Conversion de los archivos CSV"
+   72  git log 
+   73  gitk
+   74  exit
+   75  history > history-root-cujc 
+   76  git status
+   77  git add history-root-cujc 
+   78  git status
+   79  git commit -m "Commit del root"
+   80  tree
+   81  cd
+   82  exit
+   83  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/
+   84  git status
+   85  git log
+   86  git status
+   87  git log 
+   88  git status
+   89  git log
+   90  history > history-root-cujc 
+   91  git status
+   92  git add history-root-cujc 
+   93  git commit -m "Actualizacion de history root"
+   94  git status
+   95  git log
+   96  exit
+   97  shutdown -h now
+   98  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/
+   99  git status
+  100  git add src/
+  101  tree
+  102  git add --all
+  103  git status
+  104  git branch -v
+  105  git commit -m "Contiene el segundo ejercicio completo,sin graficar y tambien contiene los trabajos de investigacion escritos"
+  106  gitk
+  107  git checkout master 
+  108  git merge proyecto_programado 
+  109  git status
+  110  git pull origin master 
+  111  git push origin master 
+  112  cd src/proyectoFinal/problema3
+  113  ls -l
+  114  clear
+  115  cat Datos 
+  116  cat Datos | awk -F "\",\" '{print $6 " " $7}' ! head
+  117  cat Datos | awk -F "\",\" '{print $6 " " $7}'| head
+  118  cat Datos | awk -F "\",\"" '{print $6 " " $7}'| head
+  119  cat Datos | awk -F "\",\"" '{print $6 " " $7}'
+  120  cat Datos | awk -F "\",\"" '{print $6 " " $7}' | head
+  121  iconv -f iso-8859-1 -t utf-8 Datos >> datos.utf-8.out
+  122  cat Datos | awk -F "\",\"" '{print $6 " " $7}' | head
+  123  cat Datos | awk -F "\",\"" '{print $6 " " $7}' 
+  124  cat Datos 
+  125  cat Datos | awk -F "\",\"" '{print $6 " " $7}'| head
+  126  cat Datos.csv  
+  127  cat Datos  
+  128  cat Datos | awk -F "\",\"" '{print $6 " " $7}'|head
+  129  git status
+  130  git  checkout proyecto_programado 
+  131  clear
+  132  cat datos.utf-8.out 
+  133  cat datos.utf-8.out | awk -F "\",\"" '{print $6 " " $7}'|head
+  134  cat datos.utf-8.out 
+  135  cat datos.utf-8.out | awk -F "\",\"" '{print $6 " " $7}'
+  136  cat datos.utf-8.out | awk -F "\",\"" '{print $6 " " $7}'|head
+  137  mv Datos *.csv
+  138  mv Datos datos.csv
+  139  cat datos.utf-8.out | awk -F "\",\"" '{print $6 " " $7}' | head
+  140  cat \*.csv | awk -F "\",\"" '{print $6 " " $7}' | head
+  141  cat \*.csv | awk -F "\",\"" '{print $6 " " $7}' 
+  142  cat \*.csv | awk -F "\",\"" '{print $6 " " $7}' |head
+  143  cat datos.utf-8.out | awk -F "\",\"" '{print $6 " " $7}' |head
+  144  cat datos.utf-8.out | awk -F "\",\"" '{print $6 " " $7}' 
+  145  touch problema3.sh
+  146  vim problema3.sh 
+  147  exit
+  148  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema3/
+  149  rm problema3.sh 
+  150  rm datos.utf-8.out 
+  151  exit
+  152  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/history/
+  153  history > history-root-cujc 
