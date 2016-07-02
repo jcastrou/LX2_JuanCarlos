@@ -88,3 +88,217 @@
    88  git status
    89  git log
    90  history > history-root-cujc 
+   91  git status
+   92  git add history-root-cujc 
+   93  git commit -m "Actualizacion de history root"
+   94  git status
+   95  git log
+   96  exit
+   97  shutdown -h now
+   98  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/
+   99  git status
+  100  git add src/
+  101  tree
+  102  git add --all
+  103  git status
+  104  git branch -v
+  105  git commit -m "Contiene el segundo ejercicio completo,sin graficar y tambien contiene los trabajos de investigacion escritos"
+  106  gitk
+  107  git checkout master 
+  108  git merge proyecto_programado 
+  109  git status
+  110  git pull origin master 
+  111  git push origin master 
+  112  cd src/proyectoFinal/problema3
+  113  ls -l
+  114  clear
+  115  cat Datos 
+  116  cat Datos | awk -F "\",\" '{print $6 " " $7}' ! head
+  117  cat Datos | awk -F "\",\" '{print $6 " " $7}'| head
+  118  cat Datos | awk -F "\",\"" '{print $6 " " $7}'| head
+  119  cat Datos | awk -F "\",\"" '{print $6 " " $7}'
+  120  cat Datos | awk -F "\",\"" '{print $6 " " $7}' | head
+  121  iconv -f iso-8859-1 -t utf-8 Datos >> datos.utf-8.out
+  122  cat Datos | awk -F "\",\"" '{print $6 " " $7}' | head
+  123  cat Datos | awk -F "\",\"" '{print $6 " " $7}' 
+  124  cat Datos 
+  125  cat Datos | awk -F "\",\"" '{print $6 " " $7}'| head
+  126  cat Datos.csv  
+  127  cat Datos  
+  128  cat Datos | awk -F "\",\"" '{print $6 " " $7}'|head
+  129  git status
+  130  git  checkout proyecto_programado 
+  131  clear
+  132  cat datos.utf-8.out 
+  133  cat datos.utf-8.out | awk -F "\",\"" '{print $6 " " $7}'|head
+  134  cat datos.utf-8.out 
+  135  cat datos.utf-8.out | awk -F "\",\"" '{print $6 " " $7}'
+  136  cat datos.utf-8.out | awk -F "\",\"" '{print $6 " " $7}'|head
+  137  mv Datos *.csv
+  138  mv Datos datos.csv
+  139  cat datos.utf-8.out | awk -F "\",\"" '{print $6 " " $7}' | head
+  140  cat \*.csv | awk -F "\",\"" '{print $6 " " $7}' | head
+  141  cat \*.csv | awk -F "\",\"" '{print $6 " " $7}' 
+  142  cat \*.csv | awk -F "\",\"" '{print $6 " " $7}' |head
+  143  cat datos.utf-8.out | awk -F "\",\"" '{print $6 " " $7}' |head
+  144  cat datos.utf-8.out | awk -F "\",\"" '{print $6 " " $7}' 
+  145  touch problema3.sh
+  146  vim problema3.sh 
+  147  exit
+  148  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema3/
+  149  rm problema3.sh 
+  150  rm datos.utf-8.out 
+  151  exit
+  152  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/history/
+  153  history > history-root-cujc 
+  154  history
+  155  exit
+  156  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/
+  157  git status
+  158  git commit -m "Contiene el problema3 avanzado sin graficar,history actualizado"
+  159  cd ..
+  160  exit
+  161  shutdown -h now
+  162  ls /proc/
+  163  ls -lh /proc/cpuinfo 
+  164  lscpu
+  165  cat /proc/cpuinfo 
+  166  cat /proc/cpuinfo | grep vmx
+  167  clear
+  168  cat /proc/cpuinfo | grep vmx
+  169  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/
+  170  clear
+  171  iptables -S
+  172  iptables -L
+  173  apt-get update 
+  174  clear
+  175  apt-get install qemu-kvm libvirt-bin bridge-utils virt-manager 
+  176  cd ..
+  177  id
+  178  cat /etc/group | grep livbr
+  179  clear
+  180  iptables -S
+  181  id
+  182  virt-manager 
+  183  apt-get install qemu-system
+  184  virt-manager 
+  185  free -lh
+  186  git log
+  187  git status
+  188  clear
+  189  iptables -S
+  190  cd /etc/libvirt/
+  191  ls -l
+  192  cd qemu/
+  193  tree
+  194  vim ubm00.xml 
+  195  cat ubm00.xml 
+  196  clear
+  197  cd networks/autostart/
+  198  vim default.xml 
+  199  cd ..
+  200  ifconfig 
+  201  clear
+  202  cd ..
+  203  cd 
+  204  /home/cujc/Administrador_de_Servidores/
+  205  clear
+  206  cd /home/cujc/Administrador_de_Servidores/
+  207  clear
+  208  ifconfig 
+  209  iptables -S
+  210  clear
+  211  iptables -S
+  212  ifconfig
+  213  ssh 192.168.122.20
+  214  clear
+  215  iptables -S
+  216  netstat -ltunpa
+  217  ifconfig 
+  218  clear
+  219  ssh cujc@192.168.122.20
+  220  /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/
+  221  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/
+  222  rm Datos datos_graf/graf-0.dat datos.utf-8.out  error2.log problema1.sh 
+  223  exit
+  224  cd /home/cujc/Downloads/
+  225  exit
+  226  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/
+  227  chmod 777 problema1.tar.gz 
+  228  clear
+  229  exit
+  230  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/
+  231  tar xzf problema1.tar.gz 
+  232  ls -l
+  233  cd problema1/
+  234  ls -l
+  235  hojasDatos/
+  236  ls -l
+  237  cd hojasDatos/
+  238  ls -l
+  239  clear
+  240  exit
+  241  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/
+  242  ls -l
+  243  cd ..
+  244  rm problema1
+  245  cd problema1
+  246  rm problema1.tar.gz problema1 datos_graf/
+  247  ls -l
+  248  clear
+  249  cd ..
+  250  exit
+  251  clear
+  252  virt-manager 
+  253  virsh
+  254  clear
+  255  virsh
+  256  clear
+  257  ssh cujc@192.168.122.20
+  258  clear
+  259  ssh cujc@192.168.122.20
+  260  clear
+  261  ssh cujc@192.168.122.91
+  262  ssh cujc@192.168.122.20
+  263  exit
+  264  clear
+  265  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema3/
+  266  rm full_datos/
+  267  exit
+  268  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/
+  269  chmod 777 full_datos/
+  270  exit
+  271  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/
+  272  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/
+  273  chmod 777 error/
+  274  clear
+  275  exi
+  276  exit
+  277  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/
+  278  ls -l
+  279  ./problema2.sh 
+  280  git status
+  281  exit 
+  282  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal
+  283  git status
+  284  git add Error/
+  285  git add problema1/hojasDatos/
+  286  clear
+  287  git status
+  288  exit
+  289  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal
+  290  clear
+  291  git status
+  292  git add problema1/
+  293  exit
+  294  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal
+  295  git status 
+  296  git commit 
+  297  git commit vim 
+  298  git config --global core.editor vim
+  299  git commit 
+  300  exit
+  301  cd /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos
+  302  git status
+  303  git branch -v
+  304  history > history-root-cujc 

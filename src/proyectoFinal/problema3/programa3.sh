@@ -1,51 +1,43 @@
 #!/bin/bash
-DATA=/home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema3
-GRAF_DATA=$DATA/datos_graf
-FULL_DATOS=$DATA/full_datos
-mkdir $GRAF_DATA
-mkdir $FULL_DATOS
-m=0
-for i in `find $DATA -name "*.out"`
-do
-echo "Dando formato de datos para graficar el archivo $i"
-cat $i | awk -F "\",\"" '{print $6 " " $7}'|sed '1,$s/"//g' | sed '1 s/CPU/#CPU/g' | sed '2 s/RAD/#RAD/g' |sed '3 s/kW/#kW/g' |sed '4 s/Max/#Max/g' > $GRAF_DATA/graf-$m.dat
-let m=m+1
-done 2> /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/error/ErrorProblema3.log
 
- 
-#Revisa si el archivo de DATOS  existe para borrarlo
-if [ -a $FULL_DATOS/DAT.dat ]
+dat=/home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema3
+#Acomodar los datos y pasarlos a otro archivo
+#Revisa si el archivo de los datos  existe para borrarlo
+if [ -a $dat/datosListos.dat ]
 then
-        rm $FULL_DATOS/DAT.dat
-        echo "Archivo DAT.dat borrado"
-        fi 2>/home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/error/ErrorProb3.log
-
-#Saca la informacion de LOS DATOS
-for u in `find $GRAF_DATA -name "*.dat"`
-do
-        sed -i '1,5d' $u >> $FULL_DATOS/DAT.dat
-        echo "Procesando archivo $u"
-        let m=m+1
-        done 2>/home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/error/ErrorConElFULL3.log
-
-DATA_DATOS=$FULL_DATOS/DAT.dat  
-graficarDatos(){
-gnuplot <<EOF 2> error.log
-plot "$DATA_DATOS" using 1:1 with lines title "MAXiMO",
-"$DATOS_DATOS" using 1:2 with linespoints title "MINIMO"
-set term png
-set output 'DATOS.png'
-replot
+        rm $dat/datosListos.dat
+        echo "Archivo datosListos.dat borrado"
+        fi 2>/home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/error/ErrorIf3.log
+cat  $dat/Datos | awk -F "," '{print $6 " " $7}' |sed '1,$s/"//g' > datosListos.dat 
+#Graficamos las columnas, no las pude graficar juntas, asi que las muestro en dos imagenes, aca pongo el codigo que puse con los datos juntos
+#Creo que en realidad si los grafica pero no se destinguen, de igual manera coloco los tres.
+grafica3(){
+gnuplot << EOF 2> error.log
+set terminal png
+set output 'FiguraMaximo.png'
+plot "$dat/datosListos.dat" using 1 title "Maximo"
+,plot "$dat/datosListos.dat" using 2 with linespoints  title "Minimo"
+EOF
+}
+graficaMaximo(){
+gnuplot << EOF 2> error.log
+set terminal png
+set output 'Figura3.png'
+plot "$dat/datosListos.dat" using 1 with linespoints title "Maximo"
+EOF
+}
+ 
+graficaMinimo(){
+gnuplot << EOF 2> error.log
+set terminal png
+set output 'FiguraMinimo.png'
+plot "$dat/datosListos.dat" using 2 with linespoints title "Minimo"
 EOF
 }
 
-graficarDatos
-
- 
- 
- 
- 
- 
+ graficaMaximo
+ graficaMinimo
+ grafica3
  
  
  

@@ -1,0 +1,6 @@
+./problema2.sh: line 24: /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/datos_graf/grafico-0.dat: Permission denied
+./problema2.sh: line 24: /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/datos_graf/grafico-1.dat: Permission denied
+./problema2.sh: line 24: /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/datos_graf/grafico-2.dat: Permission denied
+./problema2.sh: line 24: /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/datos_graf/grafico-3.dat: Permission denied
+./problema2.sh: line 24: /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/datos_graf/grafico-4.dat: Permission denied
+./problema2.sh: line 24: /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/datos_graf/grafico-5.dat: Permission denied

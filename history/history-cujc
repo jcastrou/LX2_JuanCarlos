@@ -1,557 +1,3 @@
-  541  cd
-  542  Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/datos_csv/
-  543  cd Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2/datos_csv/
-  544  git status
-  545  git add datos-1.csv 
-  546  sudo su -
-  547  cd ..
-  548  cd datos_csv/
-  549  file datos-1.csv 
-  550  cd ..
-  551  iconv -f iso-8859-1 -t utf-8 
-  552  cd ..
-  553  iconv -f iso-8859-1 -t utf-8 problema2 >> problema2.utf-8.out
-  554  $iconv -f iso-8859-1 -t utf-8 problema2 >> problema2.utf-8.out
-  555  $iconv  iso-8859-1 -t utf-8 problema2 >> problema2.utf-8.out
-  556  $iconv -f iso-88591 -t utf-8 problema2 >> problema2.utf-8.out
-  557  $iconv  iso-8859-1 -t utf-8 problema2 > problema2.utf-8.out
-  558  $iconv -f iso-88591 -t utf-8 problema2 > problema2.utf-8.out
-  559  $iconv -f ISO-8859-1 -t UTF-8 problema2/datos_csv/ >> problema2.utf-8.out
-  560  iconv -f ISO-8859-1 -t UTF-8 problema2/datos_csv/ >> problema2.utf-8.out
-  561  iconv -f ISO-8859-1 -t UTF-8 problema2/datos_csv/datos- >> problema2.utf-8.out
-  562  iconv -f ISO-8859-1 -t UTF-8 problema2 >> problema2.utf-8.out
-  563  tree
-  564  cd problema2/
-  565  iconv -f iso-8859-1 -t utf-8 datos_csv >> datos.utf-8.out
-  566  cd
-  567  cd Administrador_de_Servidores/LX2_JuanCarlos/
-  568  cd src/proyectoFinal/problema2/datos_csv/
-  569  file datos-1.csv 
-  570  cd ..
-  571  clear
-  572  vim datos_csv/datos-0.csv 
-  573  git status
-  574  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $1 "" $2 "" $3 "" $4}' | head 
-  575  vim datos_csv/datos-0.csv 
-  576  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $1 "" $2 "" $3 "" $4}' | sed '1,$ s/"//g'| head 
-  577  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $3 }' | sed '1 s/LUZ/#LUZ/g'| head 
-  578  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $3 }' | sed '1,$  s/"//g'| sed '1 s/LUZ/#LUZ/g' | head  
-  579  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $3 }' | sed '1,$  s/"//g'| sed '1 s/LUZ/#luz/g' | head  
-  580  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $3 }' | sed '1,$ s/"//g'| sed '1 s/LUZ/#LUZ/g' | head  
-  581  vim problema2.sh 
-  582  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $2 }' | sed '1,$ s/"//g'| sed '1 s/LUZ/#LUZ/g' | head  
-  583  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $2 }' | sed '1,$ s/"//g'| sed '1 s/agua/#agua/g' | head  
-  584  cat datos_csv/datos-0.csv | awk -F "\",\"" '{print $2 }' | sed '1,$ s/"//g'| sed '2 s/AGUA/#AGUA/g' | head  
-  585  vim problema2.sh 
-  586  ./problema2.sh 
-  587  vim problema2.sh 
-  588  ./problema2.sh 
-  589  git status
-  590  ls =l
-  591  ls -l
-  592  cd ..
-  593  cd..
-  594  cd ..
-  595  vim E
-  596  ls -l
-  597  cd ..
-  598  cd src/proyectoFinal/
-  599  la -l
-  600  cd problema2
-  601  ls -l
-  602  cd datos_csv/
-  603  ls -l
-  604  cd ..
-  605  ./problema2.sh 
-  606  cd datos_csv/
-  607  ls -l
-  608  cd ..
-  609  vim problema2.sh 
-  610  cd ..
-  611  ls 
-  612  rm ErrorConversionDeArchivos.log 
-  613  rm ErrorGrafica.log 
-  614  ls -l
-  615  cd src/proyectoFinal/problema2
-  616  ./problema2.sh 
-  617  cd ..
-  618  cd error/
-  619  ls 
-  620  vim ErrorGrafica.log 
-  621  git status
-  622  cd ..
-  623  git status
-  624  git add src/
-  625  git add error/
-  626  git status
-  627  cd src/proyectoFinal/problema2/
-  628  vim problema2.sh 
-  629  ./problema2.sh 
-  630  ls -l
-  631  cd datos_graf/
-  632  ls -l
-  633  cd ..
-  634  vim problema2.sh 
-  635  ./problema2.sh 
-  636  mkdir plot
-  637  ls -l
-  638  gnuplot
-  639  sudo apt-get install gnuplot
-  640  gnuplot
-  641  cd datos_graf/
-  642  cp grafico-0.dat ../plot/
-  643  cd ..
-  644  cd plot/
-  645  gnuplot 
-  646  cd ..
-  647  git status
-  648  git add src/
-  649  git status
-  650  git add error/
-  651  git status
-  652  history >> history/history-$HOSTNAME
-  653  date +%Y%m%d_%H%M >> history/history-cujc 
-  654  vim problema2.sh 
-  655  history
-  656  :q
-  657  echo "##########">> history/history-cujc 
-  658  history
-  659  git status
-  660  git add history/history-cujc 
-  661  cd src/proyectoFinal/problema2/datos_graf/
-  662  rm *.dat
-  663  ls -l
-  664  cd ..
-  665  cd problema2
-  666  ./problema2.sh 
-  667  git status
-  668  rm datos_graf/
-  669  rm datos_graf
-  670  cd datos_graf/
-  671  rm *.dat
-  672  ./problema2.sh 
-  673  cd datos_graf/
-  674  ls -l
-  675  cd ..
-  676  vim problema2.sh 
-  677  ./problema2.sh 
-  678  cd datos_graf/
-  679  ls -l
-  680  cd ..
-  681  git status
-  682  git add src/proyectoFinal/problema2/
-  683  git add src/proyectoFinal/problema2/datos_graf/
-  684  git status
-  685  git add --ignore-removal src/proyectoFinal/problema2/datos_graf/
-  686  git status
-  687  git reset
-  688  git status
-  689  git log
-  690  git add error/
-  691  git add src/proyectoFinal/problema2/datos_graf/
-  692  git status
-  693  git commit -m "History Actualizado y problema #2 avance"
-  694  tree
-  695  git add src/proyectoFinal/problema2/plot
-  696  git status
-  697  history >> history/history-$HOSTNAME
-  698  git status
-  699  git add history/history-cujc 
-  700  git add src/proyectoFinal/problema2/problema2.sh 
-  701  git status 
-  702  git commit -m "History Actualizado y problema #2 avanzado"
-  703  git log 
-  704  gitk
-  705  clear
-  706  touch tareaDeLosEstados.sh
-  707  vim tareaDeLosEstados.sh 
-  708  free
-  709  vim tareaDeLosEstados.sh 
-  710  ifconfig
-  711  vim tareaDeLosEstados.sh 
-  712  vmstat 
-  713  nload
-  714  traceroute6
-  715  netstat 
-  716  netstat --listening 
-  717  netstat --route 
-  718  netstat -a
-  719  netstat -s
-  720  vim tareaDeLosEstados.sh 
-  721  netstat -i
-  722  corelist 
-  723  cores '1'
-  724  nmap localhost 
-  725  netstat -latuna
-  726  netstat --numeric-users 
-  727  netstat --netrom 
-  728  netstat --fib
-  729  netstat -a | more
-  730  vim tareaDeLosEstados.sh 
-  731  netstat --verbose 
-  732  netstat -r
-  733  netstat -rn
-  734  vim tareaDeLosEstados.sh 
-  735  netstat -latuna
-  736  netstat -latuna | grep EST
-  737  netstat 
-  738  netstat -latuna 
-  739  vim tareaDeLosEstados.sh 
-  740  uptime 
-  741  vmstat
-  742  vim tareaDeLosEstados.sh 
-  743  iostat
-  744  du
-  745  du -m
-  746  who
-  747  ps
-  748  vim tareaDeLosEstados.sh 
-  749  chmod +x tareaDeLosEstados.sh 
-  750  ./tareaDeLosEstados.sh 
-  751  git status
-  752  git add tareaDeLosEstados.sh 
-  753  git status
-  754  history >> history/history-$HOSTNAME
-  755  cd ..
-  756  history >> history/history-$HOSTNAME
-  757  date +%Y%m%d_%H%M 
-  758  date +%Y%m%d_%H%M >> history-OptiPlex-9020 
-  759  ls -l
-  760  rm history-OptiPlex-9020 
-  761  date +%Y%m%d_%H%M >> history/history-cujc 
-  762  history
-  763  cd history/
-  764  vim history-cujc 
-  765  cd ..
-  766  git status
-  767  git add history/history-cujc 
-  768  git staus
-  769  git status
-  770  git commit -m "Actualizacion de history y Tarea de los estados"
-  771  git log
-  772  cd ..
-  773  tree 
-  774  sudo su -
-  775  gitk
-  776  git status
-  777  cd ..
-  778  cd Administrador_de_Servidores/
-  779  cd LX2_JuanCarlos/
-  780  git status
-  781  gitk
-  782  sudo su -
-  783  exit
-  784  sudo su -
-  785  sudo apt-get update
-  786  sudo apt-get upgrade 
-  787  gitk
-  788  cd Administrador_de_Servidores/LX2_JuanCarlos/
-  789  gitk
-  790  touch ApuntesClase4junio.txt
-  791  vim ApuntesClase4junio.txt 
-  792  git status
-  793  git log
-  794  cd
-  795  cd Administrador_de_Servidores/LX2_JuanCarlos/
-  796  cd src/
-  797  ls
-  798  mkdir ciclos
-  799  cd ciclos/
-  800  cd ..
-  801  ls -;
-  802  ls -l
-  803  rm ciclos/
-  804  cd
-  805  cd Administrador_de_Servidores/LX2_JuanCarlos/
-  806  git status
-  807  ls -l
-  808  cd src/
-  809  git status
-  810  cd ..
-  811  clear
-  812  cd src/ciclos/
-  813  cd ..
-  814  git clone https://github.com/emvarg/LX2_emmanuel.git
-  815  ls -l
-  816  cd LX2_emmanuel/
-  817  ls -l
-  818  cd ..
-  819  git statu
-  820  git status
-  821  ls -l
-  822  cd LX2_JuanCarlos/
-  823  cd src/proyectoFinal/problema2/
-  824  ls -l
-  825  vim problema2.sh 
-  826  cd ..
-  827  cd LX2_emmanuel/
-  828  git remote -v
-  829  git pull origin master 
-  830  cd src/ciclos/
-  831  vim SpecVar.sh 
-  832  echo $?
-  833  cd ..
-  834  git pull origin master 
-  835  cd ciclos/
-  836  vim SpecVar.sh 
-  837  cd
-  838  Administrador_de_Servidores/LX2_JuanCarlos/
-  839  cd Administrador_de_Servidores/LX2_JuanCarlos/src/ciclos/
-  840  vim PracticaEnClase.sh
-  841  git status
-  842  cd ..
-  843  git status
-  844  git add src/ciclos/
-  845  git status
-  846  cd src/proyectoFinal/problema2
-  847  ls -l
-  848  ./problema2.sh
-  849  vim problema2.sh 
-  850  chmod 750 problema2.sh 
-  851  ls -la
-  852  clear
-  853  git status
-  854  git push origin master 
-  855  git remote -v
-  856  git push origin master 
-  857  gitk
-  858  git status
-  859  cd ..
-  860  git status
-  861  git commit -m "Se encuentra la carpeta ciclos con los ejercicios en clase"
-  862  git push origin master 
-  863  top
-  864  clear
-  865  cd src/ciclos/
-  866  ls -l
-  867  vim PracticaEnClase.sh 
-  868  cd ..
-  869  cd LX2_emmanuel/
-  870  git pull origin master 
-  871  cd ..
-  872  cd LX2_emmanuel/
-  873  cd src/ciclos/
-  874  ls -l
-  875  vim IFS.sh 
-  876  chmod 777 IFS.sh 
-  877  ./IFS.sh primero segundo
-  878  $VAR2=hola
-  879  $VAR2 = hola
-  880  echo $VAR2 = hola
-  881  echo $VAR3  hola
-  882  echo $VAR3  
-  883  VAR2 = casa
-  884  casa=emma
-  885  VAR2=hola
-  886  VAR3=comoesta
-  887  ./IFS.sh 
-  888  $VAR3=comoesta
-  889  echo VAR3
-  890  ECHO $VAR3
-  891  bashrc
-  892  cd
-  893  bash
-  894  vim bashrc
-  895  cd Administrador_de_Servidores/LX2_emmanuel/src/ciclos/
-  896  clear
-  897  env VAR2=hola VAR3=Mundo ./IFS.sh 
-  898  history
-  899  cd
-  900  cd Administrador_de_Servidores/LX2_JuanCarlos/src/ciclos/
-  901  clear
-  902  vim case Exm1.sh
-  903  ls -l
-  904  vim Case.sh
-  905  chmod 750 Case.sh 
-  906  ./Case.sh 
-  907  ./Case.sh Ubuntu
-  908  vim Case.sh
-  909  vim Case.sh Fedora
-  910  ./Case.sh Fedora
-  911  vim Case.sh 
-  912  ./Case.sh Fedora
-  913  ./Case.sh Ubuntu
-  914  clear
-  915  vim Case.sh 
-  916  history >> history/history-$HOSTNAME
-  917  cd ..
-  918  cd history/
-  919  history >> history/history-$HOSTNAME
-  920  cd ..
-  921  history >> history/history-$HOSTNAME
-  922  git status
-  923  git add src/ciclos/
-  924  git status
-  925  git add history/
-  926  git statys
-  927  git status
-  928  git commit -m "Clase numero 4 final history"
-  929  git push origin master 
-  930  clear
-  931  sudo apt-get update
-  932  sudo apt-get upgrade 
-  933  df
-  934  cd Administrador_de_Servidores/LX2_JuanCarlos/
-  935  mkdir TrabajosEscritos
-  936  exit
-  937  cd /usr/src/linux-headers-4.2.0-
-  938  cd Administrador_de_Servidores/LX2_JuanCarlos/
-  939  git brach -v
-  940  git branch -v
-  941  git status
-  942  cd src/proyectoFinal/problema1/
-  943  ls -l
-  944  vim datos.utf-8.out 
-  945  chmod 750 problema1.sh 
-  946  chmod 750 Datos 
-  947  vim problema1.sh 
-  948  cat Datos | awk -F "\","\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
-  949  cat datos.utf-8.out | awk -F "\","\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
-  950  cat datos.utf-8.out | awk -F "\","\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
-  951  cat Datos | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
-  952  cat Datos | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | sed '1,$ s/"//g' | head
-  953  cat Datos | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | sed '1,$ s/"//g' | sed '1,$ s/TOA5/#TOA5/g' |head
-  954  cat Datos | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | sed '1,$ s/"//g' | sed '1,$ s/TOA5/#TOA5/g'| sed '1,$ s/TIMESTAMP/#TIMESTAMP/g' |sed '1,$ s/TS/#Ts/g' | sed '1,$ s/Smp/#Smp/g' |head
-  955  vim problema1.sh 
-  956  ./problema1.sh 
-  957  vim problema1.sh 
-  958  ./problema1.sh 
-  959  vim problema1.sh 
-  960  ./problema1.sh 
-  961  cd
-  962  cd Administrador_de_Servidores/LX2_JuanCarlos/error/
-  963  ls -l
-  964  cd ..
-  965  cd src/proyectoFinal/problema1/
-  966  vim problema1.sh 
-  967  ./problema1.sh 
-  968  vim problema1.sh 
-  969  ./problema1.sh 
-  970  vim problema1.sh 
-  971  ./problema1.sh 
-  972  vim problema1.sh 
-  973  ./problema1.sh 
-  974  vim problema1.sh 
-  975  ./problema1.sh 
-  976  vim problema1.sh 
-  977  ./problema1.sh 
-  978  vim problema1.sh 
-  979  ls -l
-  980  cd
-  981  cd Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/
-  982  vim problema1.sh 
-  983  find 
-  984  cd
-  985  cd Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/
-  986  vim problema1.sh 
-  987  ./problema1.sh 
-  988  vim problema1.sh 
-  989  ./problema1.sh 
-  990  vim problema1.sh 
-  991  ./problema1.sh 
-  992  cd ..
-  993  cd problema2
-  994  vim problema2.sh 
-  995  cd ..
-  996  cd problema1
-  997  vimp
-  998  vim problema1.sh 
-  999  ./problema1.sh 
- 1000  cd datos_graf/
- 1001  ls -l
- 1002  cd ..
- 1003  vim problema1.sh 
- 1004  ./problema1.sh 
- 1005  rm datos_graf/
- 1006  vim problema1.sh 
- 1007  vim error2.log 
- 1008  ./problema1.sh 
- 1009  vim error2.log 
- 1010  vim problema1.sh 
- 1011  ./problema1.sh 
- 1012  ls -l
- 1013  cd datos_graf/
- 1014  ls -l
- 1015  cd ..
- 1016  vim problema1.sh 
- 1017  ./problema1.sh 
- 1018  ls -l
- 1019  cd datos_graf/
- 1020  ls -l
- 1021  vim graf-0.dat 
- 1022  vim graf-1.dat 
- 1023  vim graf-2.dat 
- 1024  vim graf-3.dat 
- 1025  cd ..
- 1026  vim problema1.sh 
- 1027  cd datos_graf/
- 1028  rm *.dat
- 1029  cd ..
- 1030  ./problema1.sh 
- 1031  cd datos_graf/
- 1032  ls -l
- 1033  cd ..
- 1034  vim problema1.sh 
- 1035  ./problema1.sh 
- 1036  cd datos_graf/
- 1037  ls -l
- 1038  vim graf-0.dat 
- 1039  cd ..
- 1040  ls -l
- 1041  vim error2.log 
- 1042  vim problema1.sh 
- 1043  ./problema1.sh 
- 1044  vim problema1.sh 
- 1045  ./problema1.sh 
- 1046  cd ..
- 1047  cd problema2/
- 1048  ls -l
- 1049  git status
- 1050  cd datos_csv/
- 1051  vim datos-0.csv 
- 1052  cd ..
- 1053  cd datos_graf/
- 1054  vim grafico-0.dat 
- 1055  cd ..
- 1056  vim problema2.sh 
- 1057  cat $p | awk -F "\",\"" '{print $2}' | sed '1,$ s/"//g' | sed '2 s/AGUA/#AGUA/g' > $GRAF_DATA/grafico-$m.dat
- 1058  ls -l
- 1059  vim bills06_2012.xls 
- 1060  cd Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2
- 1061  cd datos_csv/
- 1062  cat datos-0.csv | awk -F "\",\"" '{print $1 }cat $p | awk -F "\",\"" '{print $2}' | sed '1,$ s/"//g' | sed '2 s/AGUA/#AGUA/g' > $GRAF_DATA/grafico-$m.dat
- 1063  #cat $p | awk -F "\",\"" '{print $2}' | sed '1,$ s/"//g' | sed '2 s/AGUA/#AGUA/g' > $GRAF_DATA/grafico-$m.dat
- 1064  cat datos-0.csv | awk -F "\",\"" '{print $2}' | sed '1,$ s/"//g' | sed '2 s/AGUA/#AGUA/g' | head
- 1065  cat datos-0.csv | awk -F "\",\"" '{print $1}' | sed '1,$ s/"//g' | sed '1 s/AGUA/#AGUA/g' | head
- 1066  vim datos-0.csv 
- 1067  cat datos-0.csv | awk -F "\",\"" '{print $2}' | sed '2,$ s/"//g' | sed '2 s/AGUA/#AGUA/g' | head
- 1068  cat datos-0.csv | awk -F "\",\"" '{print $3}' | sed '3,$ s/"//g' | sed '3 s/AGUA/#AGUA/g' | head
- 1069  vim datos-0.csv 
- 1070  cat datos-0.csv | awk -F "\",\"" '{print $2}' | sed '2,$ s/"//g' | sed '2 s/AGUA/#AGUA/g' | head
- 1071  cat datos-0.csv | awk -F "\",\"" '{print $2}' | sed '2,$ s/"//g' | sed '3 s/AGUA/#AGUA/g' | head
- 1072  cat datos-0.csv | awk -F "\",\"" '{print $2}' | sed '2,$ s/"//g' | sed '2 s/AGUA/#AGUA/g' | head
- 1073  cat datos-0.csv | awk -F "\",\"" '{print $1}' | sed '2,$ s/"//g' | sed '2 s/AGUA/#AGUA/g' | head
- 1074  cat datos-0.csv | awk -F "\",\"" '{print $1 " " $2}' | sed '2,$ s/"//g' | sed '2 s/AGUA/#AGUA/g' | head
- 1075  cd ..
- 1076  ls -l
- 1077  cd datos_csv/
- 1078  cat datos-5.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5
- 1079  cat datos-5.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head 
- 1080  cat datos-5.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 }' | head 
- 1081  cat datos-5.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3}' | head 
- 1082  cat datos-5.csv  | awk -F "\",\"" '{print $1}' | head 
- 1083  cat datos-5.csv  | awk -F "\",\"" '{print $1 " " $2}' | head 
- 1084  cat datos-0.csv | awk {print $2}
- 1085  ls -l  datos-0.csv | awk {print $2}
- 1086  ls -l  | awk {print $2}
- 1087  cat datos-5.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3}' | head 
- 1088  cat datos-5.csv  | awk -F "\",\"" '{print $2 " "}' | head 
- 1089  cat datos-5.csv | awk -F "\",\"" '{print $0 " "}' | head 
- 1090  cat datos-5.csv | awk -F "\",\"" '{print $2}'| head 
- 1091  cat datos-5.csv | awk -F "\",\"" '{print $2}'|sed '1,$2 s/"//g'| head 
- 1092  cat datos-5.csv | awk -F "\",\"" '{print $2}'|sed '1,$ s/"//g'| head 
- 1093  cat datos-5.csv | awk -F "\",\"" '{print $1 " " $2 }'|sed '1,$ s/"//g'|sed '1 s/Monto/#Monto| head 
- 1094  cat datos-5.csv | awk -F "\",\"" '{print $1 " " $2 }'|sed '1,$ s/"//g'| head 
  1095  cat datos-5.csv | awk -F "\",\"" '{print $1 " " $2 }'|sed '1,$ s/"//g'|sed '1/Servicios/#Servicios/g'| head 
  1096  cat datos-5.csv | awk -F "\",\"" '{print $1 " " $2 }'|sed '1,$ s/"//g'|sed '1 s/Servicios/#Servicios/g'| head 
  1097  cat datos-5.csv | awk -F "\",\"" '{print $1 " " $2 }'|sed '1,$ s/"//g'|sed '2 s/Servicios/#Servicios/g'| head 
@@ -998,3 +444,557 @@
  1538  tree
  1539  cd history/
  1540  history > history-cujc 
+ 1541  cat history-cujc 
+ 1542  sudo -i
+ 1543  git status
+ 1544  cd ..
+ 1545  git add history/
+ 1546  git commit -m "Contiene problema 3 avanzado con problemas,history actualizado"
+ 1547  git status
+ 1548  git branch -v
+ 1549  git log
+ 1550  git commit 
+ 1551  sudo -i
+ 1552  gitk
+ 1553  git checkout master 
+ 1554  git merge proyecto_programado 
+ 1555  gitk
+ 1556  git push origin master 
+ 1557  sudo apt-get update 
+ 1558  gnuplot 
+ 1559  sudo -i
+ 1560  cd Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema2
+ 1561  ./problema2.sh 
+ 1562  cd ..
+ 1563  cd Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema3
+ 1564  cat Datos  | awk -F "\",\"" '{print  $5 " " $6}' | sed '1,$ s/"//g' | sed '1,$ s/kw/#kw/g'| sed '1,$ s/Max/#Max/g'|head 
+ 1565  cat Datos  | awk -F "\",\"" '{print  $6 " " $7}' | sed '1,$ s/"//g' | sed '1,$ s/kw/#kw/g'| sed '1,$ s/Max/#Max/g'|head 
+ 1566  cat Datos  | awk -F "\",\"" '{print  $1 " " $7}' | sed '1,$ s/"//g' | sed '1,$ s/kw/#kw/g'| sed '1,$ s/Max/#Max/g'|head 
+ 1567  clear
+ 1568  cd ..
+ 1569  sudo apt-get update
+ 1570  sudo apt-get upgrade 
+ 1571  clear
+ 1572  git branch -v
+ 1573  git checkout proyecto_programado 
+ 1574  git branch -v
+ 1575  clear
+ 1576  gitk
+ 1577  ip -4 addr
+ 1578  sudo su -
+ 1579  cd Administrador_de_Servidores/LX2_JuanCarlos/src/
+ 1580  cd proyectoFinal/problema1
+ 1581  ls -l
+ 1582  rm datos datos_graf/graf-0.dat datos.utf-8.out error2.log problema1.sh 
+ 1583  ls -l
+ 1584  rm Datos 
+ 1585  sudo -
+ 1586  sudo su -
+ 1587  cd /home/cujc/Downloads/
+ 1588  ls -l
+ 1589  cp problema1.tar.gz /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/p
+ 1590  sudo su -
+ 1591  clear
+ 1592  cd ..
+ 1593  clear
+ 1594  cd Administrador_de_Servidores/LX2_emmanuel/
+ 1595  git pull origin master 
+ 1596  clear
+ 1597  cd ..
+ 1598  cd LX2_JuanCarlos/src/proyectoFinal/problema1/
+ 1599  ls -l
+ 1600  cd datos_graf/
+ 1601  ls -l
+ 1602  cd ..
+ 1603  clear
+ 1604  ls -l
+ 1605  tar zxf problema1.tar.gz 
+ 1606  chmod 750 problema1.tar.gz 
+ 1607  chmod 777 problema1.tar.gz 
+ 1608  clear
+ 1609  ls -l
+ 1610  tar zxf problema1.tar.gz 
+ 1611  sudo su -
+ 1612  tar zxf problema1.tar.gz 
+ 1613  sudo su -
+ 1614  clear
+ 1615  cd problema1/
+ 1616  sudo -r
+ 1617  sudo su -
+ 1618  clear
+ 1619  ls -l
+ 1620  cd..
+ 1621  cd ..
+ 1622  clear
+ 1623  cd problema1/
+ 1624  ls -l
+ 1625  vim Datos 
+ 1626  cd hojasDatos/
+ 1627  ls -l
+ 1628  cd Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/
+ 1629  ls 
+ 1630  ls -l
+ 1631  clear
+ 1632  touch problema1.sh
+ 1633  vim problema1.sh 
+ 1634  pwd
+ 1635  vim problema1.sh 
+ 1636  chmod 750 problema1.sh 
+ 1637  ./problema1.sh 
+ 1638  ls -l
+ 1639  cd hojasDatos/
+ 1640  ls -l
+ 1641  cd datos_csv/
+ 1642  ls -l
+ 1643  vim problema1.sh 
+ 1644  cd ..
+ 1645  vim problema1.sh 
+ 1646  ./problema1.sh 
+ 1647  tree
+ 1648  cd hojasDatos/
+ 1649  cd datos_csv/
+ 1650  ls -l
+ 1651  cd ..
+ 1652  vim problema1.sh 
+ 1653  ./problema1.sh 
+ 1654  tree
+ 1655  clear
+ 1656  file Datos 
+ 1657  cd hojasDatos/datos_csv/
+ 1658  file data-0.csv 
+ 1659  cd ..
+ 1660  file data-0.csv 
+ 1661  cd ..
+ 1662  clear
+ 1663  iconv -f iso-8859-1 -t utf-8 Datos >> datos.utf-8.out
+ 1664  cat hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+ 1665  cat Datos | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+ 1666  clear
+ 1667  vim problema1.sh 
+ 1668  ./problema1.sh 
+ 1669  cat hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+ 1670  cat hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}'|sed '1,$ s/"//g' | head
+ 1671  cat hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}'|sed '1,$ s/"//g'|sed '1 s/date/#date/g' | head
+ 1672  vim problema1.sh 
+ 1673  gnuplot
+ 1674  cd hojasDatos/datos_csv/
+ 1675  cp data-0.csv /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/plot/
+ 1676  cd ..
+ 1677  cd problema1/plot/
+ 1678  ls -l
+ 1679  gnuplot 
+ 1680  cd ..
+ 1681  cd hojasDatos/datos_csv/
+ 1682  cd ..
+ 1683  ./problema1.sh 
+ 1684  cd hojasDatos/datos_graf/
+ 1685  ls -l
+ 1686  cp graf-0.dat /home/cujc/Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/plot/
+ 1687  cd ..
+ 1688  cd plot/
+ 1689  gnuplot 
+ 1690  cd Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/
+ 1691  cd plot/
+ 1692  gnuplot
+ 1693  sudo apt-get install gnuplot
+ 1694  clear
+ 1695  sudo apt-get install gnuplot libcairo-dev libpango1.0-dev wx2.8-headers 
+ 1696  clear
+ 1697  gnuplot
+ 1698  clear
+ 1699  gnuplot
+ 1700  clear
+ 1701  gnuplot
+ 1702  sudo apt-get install gnuplot liberation-Sans-Regular
+ 1703  gnuplot
+ 1704  cd Administrador_de_Servidores/LX2_JuanCarlos/
+ 1705  ls -l
+ 1706  git status
+ 1707  clear
+ 1708  cd src/proyectoFinal/problema1/plot/
+ 1709  clear
+ 1710  sudo apt-get install sudo apt-get install libgd2-noxpm-dev
+ 1711  sudo apt-get install libgd2-noxpm-dev
+ 1712  clear
+ 1713  sudo apt-get update gnuplot
+ 1714  sudo apt-get update 
+ 1715  sudo apt-get upgrade 
+ 1716  clear
+ 1717  gnuplot
+ 1718  clear
+ 1719  gnuplot
+ 1720  clear
+ 1721  gnuplot
+ 1722  sudo apt-get --purge remove gnuplot
+ 1723  clear
+ 1724  sudo apt-get install gnuplot
+ 1725  clear
+ 1726  gnuplot
+ 1727  cd Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/plot/
+ 1728  gnuplot
+ 1729  cd Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/plot/
+ 1730  gnuplot
+ 1731  set terminal png
+ 1732  iptables -S
+ 1733  sudo su-
+ 1734  sudo u-
+ 1735  sudo u -
+ 1736  sudo -su
+ 1737  cd Administrador_de_Servidores/LX2_JuanCarlos/
+ 1738  clear
+ 1739  sudo -i
+ 1740  iptables -T filter -L
+ 1741  sudo -i
+ 1742  cd Administrador_de_Servidores/LX2_JuanCarlos/src/proyectoFinal/problema1/plot/
+ 1743  gnuploy
+ 1744  gnuplot
+ 1745  cd ..
+ 1746  vim problema1.sh 
+ 1747  cd plot/
+ 1748  gnuplot 
+ 1749  cd ..
+ 1750  vim problema1.sh 
+ 1751  ./problema1.sh 
+ 1752  git status
+ 1753  git branch -v
+ 1754  git add datos_graf 
+ 1755  tree
+ 1756  cd ..
+ 1757  cd problema2
+ 1758  ./problema2.sh 
+ 1759  clear
+ 1760  cd Administrador_de_Servidores/LX2_JuanCarlos/src/
+ 1761  clear
+ 1762  touch tareaGrafica.sh
+ 1763  vim tareaGrafica.sh 
+ 1764  chmod 750 tareaGrafica.sh 
+ 1765  ./tareaGrafica.sh 
+ 1766  vim tareaGrafica.sh 
+ 1767  gnuplot
+ 1768  ./tareaGrafica.sh 
+ 1769  clear
+ 1770  vcgencmd measure_temp
+ 1771  vim tareaGrafica.sh 
+ 1772  top -n
+ 1773  top
+ 1774  top -bn
+ 1775  top 
+ 1776  htop
+ 1777  lspci
+ 1778  lsusb
+ 1779  df
+ 1780  fdisk
+ 1781  lscpu
+ 1782  free
+ 1783  cat top
+ 1784  top -bn1 | grep "Cpu(s)" |            sed "s/.*, *\([0-9.]*\)%* id.*/\1/" |            awk '{print 100 - $1"%"}'
+ 1785  top -bn1 | grep "Cpu(s)" |            sed "s/.*, *\([0-9.]*\)%* id.*/\1/" |            awk '{print 100 - $1"%"}'
+ 1786  top -bn1 | grep "Cpu(s)" |            sed "s/.*, *\([0-9.]*\)%* id.*/\1/" |            awk '{print 100 - $1"%"}'
+ 1787  top -bn1 | grep "Cpu(s)" |            sed "s/.*, *\([0-9.]*\)%* id.*/\1/" |            awk '{print 100 - $1"%"}'
+ 1788  top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" |awk '{print 100 - $1"%"}'
+ 1789  top -bn1 | grep "Cpu(s)" |            sed "s/.*, *\([0-9.]*\)%* id.*/\1/" |            awk '{print 100 - $1"%"}'
+ 1790  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+ 1791  echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+ 1792  top -bn1 | grep "Cpu(s)" |            sed "s/.*, *\([0-9.]*\)%* id.*/\1/" |            awk '{print 100 - $1"%"}'
+ 1793  sudo apt-get update
+ 1794  top -bn1 | grep "Cpu(s)" |sed "s/.*, *\([0-9.]*\)%* id.*/\1/"|awk '{print 100 - $1"%"}'
+ 1795  top -bn1 | grep "Cpu(s)" |sed "s/.*, *\([0-9.]*\)%* id.*/\1/"|awk '{print 100 -$1}'
+ 1796  ps aux
+ 1797  ps aux --sort pmem
+ 1798  clear
+ 1799  top -bn1 | grep "Cpu(s)" |sed "s/.*, *\([0-9.]*\)%* id.*/\1/"|awk '{print 100 -$1}'
+ 1800  sudo apt-get install spotify-client
+ 1801  clear
+ 1802  touch liveCpu.gnu
+ 1803  vim liveCpu.gnu 
+ 1804  git status
+ 1805  clear
+ 1806  top -bn1 | grep "Cpu(s)" |sed "s/.*, *\([0-9.]*\)%* id.*/\1/"|awk '{print 100 -$1}'
+ 1807  ls -l
+ 1808  rm plot.dat 
+ 1809  vim cpu.sh
+ 1810  top -bn1 | grep "Cpu(s)" |sed "s/.*, *\([0-9.]*\)%* id.*/\1/"|awk '{print 100 -$1}'
+ 1811  vim cpu.sh
+ 1812  mv cpu.sh menu.sh
+ 1813  vim menu.sh 
+ 1814  rm cpu.sh
+ 1815  ls -l
+ 1816  clear
+ 1817  rm cpu.sh
+ 1818  vim menu.sh 
+ 1819  chmod 750 menu.sh 
+ 1820  chmod 750 liveCpu.gnu 
+ 1821  ./menu.sh 
+ 1822  vim menu.sh 
+ 1823  ./menu.sh 
+ 1824  clear
+ 1825  vim liveCpu.gnu 
+ 1826  ./menu.sh 
+ 1827  vim menu.sh 
+ 1828  touch cpu.dat
+ 1829  ./menu.sh 
+ 1830  vim liveCpu.gnu 
+ 1831  ./menu.sh 
+ 1832  vim menu.sh 
+ 1833* 
+ 1834  ls -l
+ 1835  vim liveCpu.gnu 
+ 1836  vim menu.sh 
+ 1837  ./menu.sh 
+ 1838  vim menu.sh 
+ 1839  top -bn1 | grep "Cpu(s)" |sed "s/.*, *\([0-9.]*\)%* id.*/\1/"|awk '{print 100 -$1}'
+ 1840  vim menu.sh 
+ 1841  vim liveCpu.gnu 
+ 1842  vim menu.sh 
+ 1843  ./menu.sh 
+ 1844  vim menu.sh 
+ 1845  ./menu.sh 
+ 1846  vim menu.sh 
+ 1847  ./menu.sh 
+ 1848  top -bn1 | grep "Cpu(s)" |sed "s/.*, *\([0-9.]*\)%* id.*/\1/"|awk '{print 100 -$1}'
+ 1849  ./menu.sh 
+ 1850  vim menu.sh 
+ 1851  ./menu.sh 
+ 1852  vim liveCpu.gnu 
+ 1853  ./menu.sh 
+ 1854  vim menu.sh 
+ 1855  ./menu.sh 
+ 1856  vim menu.sh 
+ 1857  ./menu.sh 
+ 1858  vim menu.sh 
+ 1859  ./menu.sh 
+ 1860  vim liveCpu.gnu 
+ 1861  ./menu.sh 
+ 1862  vim menu.sh 
+ 1863  ./menu.sh 
+ 1864  top -bn1 | grep "Cpu(s)" |sed "s/.*, *\([0-9.]*\)%* id.*/\1/"|awk '{print 100 -$1}'
+ 1865  vim menu.sh 
+ 1866  ./menu.sh 
+ 1867  vim liveCpu.gnu 
+ 1868  ./menu.sh 
+ 1869  vim liveCpu.gnu 
+ 1870  ./menu.sh 
+ 1871  vim liveCpu.gnu 
+ 1872  ./menu.sh 
+ 1873  vim liveCpu.gnu 
+ 1874  ./menu.sh 
+ 1875  vim liveCpu.gnu 
+ 1876  ./menu.sh 
+ 1877  # top -bn1 | grep "Cpu(s)" |sed "s/.*, *\([0-9.]*\)%* id.*/\1/"|awk '{print 100 -$1}'
+ 1878  top -bn1 | grep "Cpu(s)" 
+ 1879  top
+ 1880  top -bn1 | grep "MEM" 
+ 1881* # top -bn1 | grep "%MEM" |sed "s/.*, *\([0-9.]*\)%* id.*/\1/f"|awk '{print 100 -$1}'
+ 1882  # top -bn1 | grep "%MEM" |sed "s/.*, *\([0-9.]*\)%* id.*/\1/"|
+ 1883  # top -bn1 | grep "%MEM" 
+ 1884  cat # top -bn1 | grep "%MEM" 
+ 1885  top -bn1 | grep "MEM" 
+ 1886  free 
+ 1887  free -m
+ 1888  ps xu | awk '{print $4, $11}' | sort
+ 1889  uptime 
+ 1890  uptime | awk {'print $3'} | awk 'match($0,","){print substr($0,RSTART-1,5)}'
+ 1891  echo `free -m | grep '+' | awk {'print $3'}`MB
+ 1892  vim menu.sh 
+ 1893  cp liveCpu.gnu liveRam.gnu
+ 1894  ls -l
+ 1895  vim liveRam.gnu 
+ 1896  vim menu.sh 
+ 1897  ./menu.sh 
+ 1898  vim menu.sh 
+ 1899  ./menu.sh 
+ 1900  vim menu.sh 
+ 1901  ./menu.sh 
+ 1902  vim menu.sh 
+ 1903  vim liveRam.gnu 
+ 1904  ./menu.sh 
+ 1905  vim liveRam.gnu 
+ 1906  vim menu.sh 
+ 1907  gnuplot 
+ 1908  gnuplot
+ 1909  clear
+ 1910  ./menu.sh 
+ 1911  cp menu.sh prueba.sh
+ 1912  vim prueba.sh
+ 1913  chmod 750 prueba.sh 
+ 1914  ./prueba.sh 
+ 1915  vim prueba.sh
+ 1916  ./prueba.sh 
+ 1917  vim prueba.sh
+ 1918  ./prueba.sh 
+ 1919  git branch -v
+ 1920  clear
+ 1921  rm prueba.sh 
+ 1922  clear
+ 1923  ./menu.sh 
+ 1924  vim menu.sh 
+ 1925  ./menu.sh 
+ 1926  clear
+ 1927  cd proyectoFinal/problema3/
+ 1928  vim Datos 
+ 1929  ls -l
+ 1930  vim programa3.sh 
+ 1931  cat Datos | awk -F "\",\"" '{print $6 " " $7}'|sed '1,$s/"//g' | sed '1 s/CPU/#CPU/g' | sed '2 s/RAD/#RAD/g' |sed '3 s/kW/#kW/g' |sed '4 s/Max/#Max
+ 1932  cat Datos | awk -F "\",\"" '{print $6 " " $7}'|sed '1,$s/"//g' | 
+ 1933  cat Datos | awk -F "\",\"" '{print $6 " " $7}'|sed '1,$s/"//g' 
+ 1934  clear
+ 1935  vim Datos 
+ 1936  cat Datos 
+ 1937  cat Datos|awk -F "\",\"" '{print $6 " " $7}'|
+ 1938  cat Datos|awk -F "\",\"" '{print $6 " " $7}'
+ 1939  cat Datos|awk -F "\",\"" '{print $5 " " $6}'
+ 1940  cat Datos|awk -F "\",\"" '{print $5 " " $6}'|
+ 1941  ls -l
+ 1942  vim programa3.sh 
+ 1943  ./programa3.sh 
+ 1944  vim programa3.sh 
+ 1945  vim Datos 
+ 1946* cat Datos  | awk -F "\",\"" '{print $6 " " $7}'|sed '1,$s/"
+ 1947  vim Datos 
+ 1948  cat Datos | awk -F "\",\"" '{print $6 " " $7}' |sed '1,$s/"//g' 
+ 1949  vim Datos 
+ 1950  cat Datos | awk -F "," '{print $6 " " $7}' |sed '1,$s/"//g' 
+ 1951  ls -l
+ 1952  vim programa3.sh 
+ 1953  ./programa3.sh 
+ 1954  vim programa3.sh 
+ 1955  ./programa3.sh 
+ 1956  ls -l
+ 1957  cd datos_graf/
+ 1958  ls-l
+ 1959  ls -l
+ 1960  vim datosListos.dat 
+ 1961  rm datosListos.dat 
+ 1962  rm graf-0.dat 
+ 1963  cd ..
+ 1964  clear
+ 1965  vim programa3.sh 
+ 1966  ./programa3.sh 
+ 1967  vim programa3.sh 
+ 1968  cd datos_graf/
+ 1969  vim datosListos.dat 
+ 1970  cd ..
+ 1971  vim programa3.sh 
+ 1972  rm DATOS.png 
+ 1973  rm full_datos/
+ 1974  sudo su -
+ 1975  clear
+ 1976  ./programa3.sh 
+ 1977  vim datosListos.dat 
+ 1978  ls -l
+ 1979  cat Datos | awk -F "," '{print $6 " " $7}' |sed '1,$s/"//g' 
+ 1980  vim programa3.sh 
+ 1981  ./programa3.sh 
+ 1982  vim programa3.sh 
+ 1983  ./programa3.sh 
+ 1984  vim programa3.sh 
+ 1985  cd ..
+ 1986  cd problema2
+ 1987  vim problema2.sh 
+ 1988  cd ..
+ 1989  cd problema3
+ 1990  vim programa3.sh 
+ 1991  ./programa3.sh 
+ 1992  vim programa3.sh 
+ 1993  ./programa3.sh 
+ 1994  vim datosListos.dat 
+ 1995  ./programa3.sh 
+ 1996  vim programa3.sh 
+ 1997  ./programa3.sh 
+ 1998  vim programa3.sh 
+ 1999  ./programa3.sh 
+ 2000  vim programa3.sh 
+ 2001  ./programa3.sh 
+ 2002  vim programa3.sh 
+ 2003  ./programa3.sh 
+ 2004  vim programa3.sh 
+ 2005  ./programa3.sh 
+ 2006  vim programa3.sh 
+ 2007  ./programa3.sh 
+ 2008  vim programa3.sh 
+ 2009  ./programa3.sh 
+ 2010  vim programa3.sh 
+ 2011  ./programa3.sh 
+ 2012  vim programa3.sh 
+ 2013  ./programa3.sh 
+ 2014  vim programa3.sh 
+ 2015  ./programa3.sh 
+ 2016  vim programa3.sh 
+ 2017  ./programa3.sh 
+ 2018  vim programa3.sh 
+ 2019  ./programa3.sh 
+ 2020  vim programa3.sh 
+ 2021  ./programa3.sh 
+ 2022  vim programa3.sh 
+ 2023  ./programa3.sh 
+ 2024  vim programa3.sh 
+ 2025  ./programa3.sh 
+ 2026  vim programa3.sh 
+ 2027  ./programa3.sh 
+ 2028  vim programa3.sh 
+ 2029  ./programa3.sh 
+ 2030  vim programa3.sh 
+ 2031  clear
+ 2032  cd ..
+ 2033  cd problema2
+ 2034  vim
+ 2035  vim problema2.sh 
+ 2036  ./problema2.sh 
+ 2037  vim problema2.sh 
+ 2038  ./problema2.sh 
+ 2039  chmod 777 full_datos/
+ 2040  sudo su -
+ 2041  ./problema2.sh 
+ 2042  vim problema2.sh 
+ 2043  ./problema2.sh 
+ 2044  vim problema2.sh 
+ 2045  sudo su -
+ 2046  clear
+ 2047  ./problema2.sh 
+ 2048  vim problema2.sh 
+ 2049  sudo su -
+ 2050  clear
+ 2051  git status
+ 2052  git add -all
+ 2053  git add 
+ 2054  git add datos_graf/ ErrorConElFULL.log ErrorConversionDeArchivos.log  ErrorGrafica.log  ErrorIf1.log ErrorIf.log  problema2.sh 
+ 2055  git status
+ 2056  cd ..
+ 2057  git status
+ 2058  git add error/ src/
+ 2059  clear
+ 2060  git status
+ 2061  git add src/tareaGrafica.sh 
+ 2062  git add src/liveCpu.gnu src/liveRam.gnu  error/ErrorIf3.log 
+ 2063  git status
+ 2064  git add src/menu.sh 
+ 2065  git add src/proyectoFinal/problema1/
+ 2066  git add src/proyectoFinal/problema3/
+ 2067  tree
+ 2068  git branch -v
+ 2069  cd src/proyectoFinal/problema1/
+ 2070  git status
+ 2071  git add error.log error3.log errorIf.log figura1.png 
+ 2072  git add hojasDatos/
+ 2073  git add plot/fig1.png plot/graf-0.dat 
+ 2074  clear
+ 2075  git status
+ 2076  cd hojasDatos/
+ 2077  git add datos1.xls datos2.xls datos3.xls datos4.xls datos5.xls 
+ 2078  git status
+ 2079  cd ..
+ 2080  git status
+ 2081  sudo su -
+ 2082  git add problema1/datos_graf 
+ 2083  sudo su -
+ 2084  git add problema1/problema1.sh 
+ 2085  git add ../../error/ErrorGrafica.log 
+ 2086  clear
+ 2087  git status
+ 2088  git rm problema1/datos_graf 
+ 2089  git commit  
+ 2090  sudo su -
+ 2091  cd ..
+ 2092  vim history/history-cujc 
+ 2093  cd history/
+ 2094  history > history-cujc 
